@@ -1,7 +1,8 @@
 **Data Collection**
+
 We used scrapy to crawl raw data on Craigslist in Corvallis, after data cleaning, we implemented MySQL queries to join and project with two schemas. The features of the aparemtns are location(longitude, latitude), safety and size of the apartment. 
-We have 606 training examples and 50 testing examples.
-We used Linear Regression and Neural Network to fit the training data set. 
+There are 606 training examples and 50 testing examples.
+Linear Regression and Neural Network Regression Models are trained to fit the training data set. 
 
 **Result**
 
